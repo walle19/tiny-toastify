@@ -7,6 +7,7 @@ A minimalistic and easy-to-use toast notification library that enables developer
 
 
 ## Installation
+
 ```bash
 npm install tiny-toastify
 
@@ -27,3 +28,18 @@ npm install tiny-toastify
 * No need for heavy UI libraries just for notifications.
 * Easy integration in vanilla JS or frameworks like React, Vue, or Angular.
 * Highly configurable yet simple API.
+
+🚀 Project Structure
+tiny-toastify/
+├── dist/              # Compiled library files (output)
+├── src/              # Source code
+│   ├── index.js       # Entry point
+│   ├── toast.js       # Core toast logic
+│   ├── styles.css     # Default styles
+│   └── utils.js       # Utility functions
+├── example/          # Example usage project
+│   ├── index.html
+├── .gitignore        # Ignore unnecessary files
+├── package.json      # npm metadata
+├── README.md         # Documentation
+└── LICENSE           # License file
